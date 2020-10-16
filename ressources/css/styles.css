@@ -6,14 +6,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #485E75
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
 
-/*HEADER*/
+/*==============================HEADER===============*/
 
 
 header {
@@ -23,10 +28,40 @@ header {
     height: 100vh;
 }
 
+/*Nav*/
 
-nav ul {
-    text-align: right;
+nav {
+    background-color: #fff;
 }
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+
+.nav-item {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: #000;
+    margin: 0;
+}
+
+.nav-link:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/*Main title*/
 
 .main-title {
     margin-top: 500px;
@@ -34,29 +69,21 @@ nav ul {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-.jscolor1 {
-    color: #fff;
+.main-title span {
+    font-size: 0.8em;
 }
-.jscolor2 {
-    color: #fff;
-}
-.jscolor3 {
-    color: #fff;
-}
-.jscolor4 {
-    color: #fff;
-}
+
+
+
+
+
+
+
+
 
 
 nav.scroll {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(163, 28, 28, 0.9);
 }
 
 .codinggo.scroll {
