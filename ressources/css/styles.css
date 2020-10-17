@@ -136,19 +136,30 @@ nav {
 .intro p {
     text-align: center;
     margin-top: 20px;
-    padding: 30px;
+    padding: 40px;
     border-top: 1px solid rgba(45, 35, 92, 0.3);
     border-bottom: 1px solid rgba(45, 35, 92, 0.3);
 
 }
 
+/*presentation*/
+
+#presentation {
+    margin-top: 40px;
+}
+
+#presentation h2 { 
+    font-size: 1.5em;
+    font-weight: 300;
+}
 
 
-
-
-
+/*JS scroll nav*/
 nav.scroll {
-    background-color: rgba(163, 28, 28, 0.9);
+    background-color: rgba(27,26,64,0.6);
+    transition: 2s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
 }
 
 .codinggo.scroll {
