@@ -16,6 +16,7 @@ html {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Crimson Text', serif;
+    text-align: center;
 }
 
 a {
@@ -37,6 +38,7 @@ header {
 
 nav {
     background-color: #1B1A40;
+    transition: 2s;
 }
 
 .navbar {
@@ -76,13 +78,15 @@ nav {
     font-weight: 700;
     color: #fff;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -60px;
     font-size: 4.2em;
     letter-spacing: 4px;
 }
 
 .main-title span {
     font-size: 0.8em;
+    margin: 0;
+    padding: 0;
 }
 
 .coquillage {
@@ -92,7 +96,7 @@ nav {
 
 .link-tarifs {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     padding: 5px;
     background-color: #81A5C7;
     width: 150px;
@@ -152,6 +156,57 @@ nav {
     font-size: 1.5em;
     font-weight: 300;
 }
+
+/*prestation*/
+
+#prestations {
+    margin-top: 60px;
+    background-color: #81A5C7;
+}
+
+#prestations h2 {
+    margin-top: 60px;
+}
+
+
+#prestations p {
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid rgba(45, 35, 92, 0.3);
+    border-bottom: 1px solid rgba(45, 35, 92, 0.3);
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*JS scroll nav*/
